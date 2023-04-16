@@ -1,0 +1,94 @@
+
+/*Css file: Homepage*/
+
+/*--- Background image ---*/
+
+.profile-pic{
+    border: solid;
+    border-radius: 3%;
+    border-width: 3px;
+    border-color: white;
+}
+    body {
+        background-color:white
+        
+    }
+
+/*--- Headers ---*/
+
+h1{
+    font-weight: 600;
+    color: white;
+   font-size: 60px;
+}
+
+/* Navbar links*/
+.color-links{
+    color:white;
+}
+
+.color-links:hover{
+    color:rgb(255, 213, 25);
+}
+
+/*Text for phones*/
+
+.text-phone{
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+
+/* Link margin for small logos*/
+
+.link-margin{
+    margin: 10px;
+    filter: invert(100%);
+}
+
+footer{
+    margin-top:7%;
+    margin-left: 5%;
+}
+
+.hidden {
+    display: none;
+  }
+
+.position-relative {
+position: relative;
+}
+
+.position-absolute {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+h4 {
+    color:black;
+}
+
+@font-face {
+    font-family: 'robot';
+    src: url('RobotoMono-Bold.ttf');
+    font-weight: normal;
+  }
+
+@font-face {
+    font-family: 'robotSlab';
+    src: url('RobotoSlab-Light.ttf');
+    font-weight: normal;
+  }
+
+body {
+    font-family:'robotSlab';
+}
+
+#logoText{
+    font-family:'robot';
+    font-size: 25px;
+
+}
